@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:animate_do_app/src/pagina1_page.dart';
 //import 'package:animate_do_app/src/twitter_page.dart';
+//import 'package:animate_do_app/src/navegacion_page.dart';
 
 void main() {
   runApp(const MyApp());
