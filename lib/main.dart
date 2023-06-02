@@ -13,10 +13,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+          primary: Colors.amber[800],
+          secondary: Colors.green
+        ),
+      ),
       title: 'Material App',
-      home: Pagina1Page()
+      home:const Pagina1Page()
     );
   }
 }
